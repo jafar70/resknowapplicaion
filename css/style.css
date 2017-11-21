@@ -163,7 +163,7 @@ body {
 /*****************************************************/
 
 .video-container {
-  min-height: 70vh;
+  min-height: 55vh;
   position: relative;
   overflow: hidden;
 }
