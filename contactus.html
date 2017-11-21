@@ -12,27 +12,40 @@
 </head>
 
 <body>
-	<div class="nav">
+	<div class="topnav" id="myTopnav">
 		<div class="container">
-		<div class="nav-header">
-			<div class="nav-title">
-				<img src="img/logo.png" class="logo" alt="Frali Logo"></img>
+			<a href="#news"><i class="fa fa-clock-o" aria-hidden="true"></i> Monday-Friday: 9:00am-9:00pm</a>
+			<a href="#contact"><i class="fa fa-phone"></i> 01234 567 789</a>
+			<a href="#about"><i class="fa fa-envelope-o"></i> info@frali.co.uk</a>
+			<div class="socialnetworklinks">
+				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="nav-btn">
-			<label for="nav-check">
+	</div>
+
+	<div class="nav">
+		<div class="container">
+			<div class="nav-header">
+				<div class="nav-title">
+					<a href="index.html"><img src="img/logo.png" class="logo" alt="Frali Logo"></img></a>
+				</div>
+			</div>
+			<div class="nav-btn">
+				<label for="nav-check">
       <span></span>
       <span></span>
       <span></span>
     </label>
-		</div>
-		<input type="checkbox" id="nav-check">
-		<div class="nav-links">
-			<a href="index.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="testimonials.html">Testimonials</a>
-			<a href="contactus.html"  class="active">Contact Us</a>
-		</div>
+			</div>
+			<input type="checkbox" id="nav-check">
+			<div class="nav-links">
+				<a href="index.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="testimonials.html">Testimonials</a>
+				<a href="contactus.html" class="active">Contact Us</a>
+			</div>
 		</div>
 	</div>
 
@@ -41,50 +54,51 @@
 			<h1>Contact Us</h1>
 		</div>
 	</div>
-	
+
 	<div class="intro">
-	<div class="container">
-		<p class="center-text intro-text">We'd love to hear from you if you've got comments about your experience at Frali, suggestions as to how we could make your meal more enjoyable - or if you'd just like to say hello. Please fill in the form below, and we'll get back to you as soon as possible.</p>
+		<div class="container">
+			<p class="center-text intro-text">We'd love to hear from you if you've got comments about your experience at Frali, suggestions as to how we could make your meal more enjoyable - or if you'd just like to say hello. Please fill in the form below, and we'll get back to you as soon as
+				possible.</p>
 
-		<div class="grid-system">
-		  <div class="item">
-			<form id="contact" action="" method="post">
-			    <fieldset>
-			      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-			    </fieldset>
-			    <fieldset>
-			      <input placeholder="Your Email Address" type="email" tabindex="2" required>
-			    </fieldset>
-			    <fieldset>
-			      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-			    </fieldset>
-			    <fieldset>
-			      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-			    </fieldset>
-			    <fieldset>
-			      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-			    </fieldset>
-			  </form>
+			<div class="grid-system">
+				<div class="item">
+					<form id="contact" action="" method="post">
+						<fieldset>
+							<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+						</fieldset>
+						<fieldset>
+							<input placeholder="Your Email Address" type="email" tabindex="2" required>
+						</fieldset>
+						<fieldset>
+							<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+						</fieldset>
+						<fieldset>
+							<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+						</fieldset>
+						<fieldset>
+							<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+						</fieldset>
+					</form>
 
-		  </div>
-		  
-		  <div class="item">
-            <p><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i> Frali, Market Parade, Sidcup, Kent, DA14 6ES</p>
-            <p><i class="fa fa-phone fa-3x" aria-hidden="true"></i> 01234 567 789</p>
-            <p><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> info@frali.co.uk</p>
-			<p><i class="fa fa-twitter fa-3x" aria-hidden="true"></i> @FraliRestaurant</p>
-			<p><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i> Frali Restaurant</p>
-		  	</div>
-		  </div>
-		  
-		  </div>
+				</div>
+
+				<div class="item contact-details">
+					<p><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i> Frali, Market Parade, Sidcup, Kent, DA14 6ES</p>
+					<p><i class="fa fa-phone fa-3x" aria-hidden="true"></i> 01234 567 789</p>
+					<p><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> info@frali.co.uk</p>
+					<p><i class="fa fa-twitter fa-3x" aria-hidden="true"></i> @FraliRestaurant</p>
+					<p><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i> Frali Restaurant</p>
+				</div>
+			</div>
+
 		</div>
+	</div>
 
-	
-	
+
+
 	<div id="map_container"></div>
 	<div id="map"></div>
-	
+
 	<footer class="footer-distributed">
 		<div class="container">
 			<div class="footer-left">
@@ -92,12 +106,9 @@
 				<img src="img/logo.png" class="footer-logo" alt="Frali Logo" width="200px"></img>
 
 				<p class="footer-links">
-					<a href="index.html">Home</a>
-					·
-					<a href="menu.html">Menu</a>
-					·
-					<a href="testimonials.html">Testimonials</a>
-					·
+					<a href="index.html">Home</a> ·
+					<a href="menu.html">Menu</a> ·
+					<a href="testimonials.html">Testimonials</a> ·
 					<a href="contactus.html">Contact Us</a>
 
 				</p>
@@ -127,9 +138,7 @@
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>About Frali</span>
-					Frali is a small family run restaurant located in Sidcup, providing authentic Italian and
-Mediterranean cuisine in a friendly and relaxed environment. 
+					<span>About Frali</span> Frali is a small family run restaurant located in Sidcup, providing authentic Italian and Mediterranean cuisine in a friendly and relaxed environment.
 				</p>
 
 				<div class="footer-icons">
@@ -142,8 +151,8 @@ Mediterranean cuisine in a friendly and relaxed environment.
 				</div>
 
 			</div>
-			</div>
-		</footer>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>

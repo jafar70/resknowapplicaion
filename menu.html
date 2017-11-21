@@ -12,27 +12,40 @@
 </head>
 
 <body>
-	<div class="nav">
+	<div class="topnav" id="myTopnav">
 		<div class="container">
-		<div class="nav-header">
-			<div class="nav-title">
-				<img src="img/logo.png" class="logo" alt="Frali Logo"></img>
+			<a href="#news"><i class="fa fa-clock-o" aria-hidden="true"></i> Monday-Friday: 9:00am-9:00pm</a>
+			<a href="#contact"><i class="fa fa-phone"></i> 01234 567 789</a>
+			<a href="#about"><i class="fa fa-envelope-o"></i> info@frali.co.uk</a>
+			<div class="socialnetworklinks">
+				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="nav-btn">
-			<label for="nav-check">
+	</div>
+
+	<div class="nav">
+		<div class="container">
+			<div class="nav-header">
+				<div class="nav-title">
+					<a href="index.html"><img src="img/logo.png" class="logo" alt="Frali Logo"></img></a>
+				</div>
+			</div>
+			<div class="nav-btn">
+				<label for="nav-check">
       <span></span>
       <span></span>
       <span></span>
     </label>
-		</div>
-		<input type="checkbox" id="nav-check">
-		<div class="nav-links">
-			<a href="index.html">Home</a>
-			<a href="menu.html" class="active">Menu</a>
-			<a href="testimonials.html">Testimonials</a>
-			<a href="contactus.html">Contact Us</a>
-		</div>
+			</div>
+			<input type="checkbox" id="nav-check">
+			<div class="nav-links">
+				<a href="index.html">Home</a>
+				<a href="menu.html" class="active">Menu</a>
+				<a href="testimonials.html">Testimonials</a>
+				<a href="contactus.html">Contact Us</a>
+			</div>
 		</div>
 	</div>
 
@@ -41,23 +54,217 @@
 			<h1>Menu</h1>
 		</div>
 	</div>
-	
-	<div class="intro">
-	<div class="container">
-		<p class="center-text intro-text">We'd love to hear from you if you've got comments about your experience at Frali, suggestions as to how we could make your meal more enjoyable - or if you'd just like to say hello. Please fill in the form below, and we'll get back to you as soon as possible.</p>
 
-		<div class="grid-system">
-		  <div class="item">
-		
-		  </div>
-		  </div>
+	<div class="intro">
+		<div class="container">
+			<p class="center-text intro-text">We'd love to hear from you if you've got comments about your experience at Frali, suggestions as to how we could make your meal more enjoyable - or if you'd just like to say hello. Please fill in the form below, and we'll get back to you as soon as
+				possible.</p>
+
+			<div class="grid-system">
+				<div class="item">
+					<div class="menuContainer">
+						<!--TABS START-->
+						<div class="tabsContainer">
+							<input class="button" type="button" value="All" id="btnAll" />
+							<input class="button" type="button" value="Paste" id="btnPastes" />
+							<input class="button" type="button" value="Risotti" id="btnRisotti" />
+							<input class="button" type="button" value="Drinks" id="btnBeverages" />
+							<input class="button" type="button" value="Carne" id="btnCarnes" />
+							<input class="button" type="button" value="Desserts" id="btnDesserts" />
+							<input class="button" type="button" value="Cheeseboard" id="btnCheeseboards" />
+							<input class="button" type="button" value="Pesce" id="btnPesces" />
+							<input class="button" type="button" value="Antipasti" id="btnAntipasti" />
+							<input class="button" type="button" value="Salads" id="btnSalads" />
+						</div>
+						<!--TABS END-->
+
+						<div class="menuListContainer allMenuColor">
+							<!--MENU LISTS START-->
+							<!-- Apps/sides -->
+							<div class="pastes menuList">
+								<h2>Paste</h2>
+								<ul>
+									<li>CON FUNGHI & ASPARAGI (V) * <span class="price">Starter-£6.00/Main-£10.00</span><br/>
+										<span class="description">Wild mushrooms, asparagus, butter & cherry tomato</span></li>
+									<ul class="meatList">
+										<li><span class="description"><span class="price">Starter-£6.00/Main-£10.00</span>WITH BEEF MEATBALLS *</span>
+										</li>
+									</ul>
+									<li>CON POLLO & BASILICO * <span class="price">Starter-£6.00/Main-£10.00</span><br/>
+										<span class="description">Strips of chicken with garlic, white wine, basil & tomato</span></li>
+									<li>CON SALMONE BROCCOLI & VODKA * <span class="price">Starter-£6.00/Main-£11.00</span><br/>
+										<span class="description">Fresh salmon with broccoli cream & vodka </span></li>
+									<li>PESCATORA<span class="price">Starter-£6.00/Main-£12.00</span><br/>
+										<span class="description">Mixed shell-fish, white wine, garlic, chilli, herbs & tomatoes</span></li>
+									<li>TORTELLI CON RICOTTA & SPINACI (V)<span class="price">Starter-£6.00/Main-£11.00</span><br/>
+										<span class="description">Pasta filled with ricotta, spinach & served with
+mushroom sauce</span></li>
+									<li>GAMBERONI & ZUCCHINE * <span class="price">Starter-£6.00/Main-£11.00</span><br/>
+										<span class="description">Vanilla or chocolate</span></li>
+								</ul>
+							</div>
+							<!-- Risotti -->
+							<div class="risotti menuList">
+								<h2>Risotti</h2>
+								<ul>
+									<li>CON FUNGHI & SPINACH (V)<span class="price">Starter-£6.00/Main-£11.00</span><br/>
+										<span class="description">Mushrooms, spinach cream & parmesan</span></li>
+									<li>ALLA PESCATORA<span class="price">Starter-£6.00/Main-£11.00</span><br/>
+										<span class="description">Mixed shell-fish, fresh tomatoes, garlic & herbs/span></li>
+			          <li>CON ASPARAGI & CHORIZO<span class="price">Starter-£6.00/Main-£11.00</span><br/>
+										<span class="description">Asparagus, spicy chorizo, cream & parmesan</span></li>
+								</ul>
+							</div>
+							<!-- Drinks -->
+							<div class="beverages menuList">
+								<h2>Drinks</h2>
+								<ul>
+									<li>ESPRESSO<span class="price">£1.50</span><br/>
+										<li>DOUBLE ESPRESSO<span class="price">£2.00</span><br/>
+											<li>MACCHIATO<span class="price">£2.00</span><br/>
+												<li>FILTER<span class="price">£1.75</span><br/>
+													<li>CAPPUCCINO<span class="price">£2.50</span><br/>
+														<li>CAFFELATTE<span class="price">£2.75</span><br/>
+															<li>FLOATER<span class="price">£2.75</span><br/>
+																<li>HOT CHOCOLATE<span class="price">£2.75</span><br/>
+																	<li>SELECTION OF TEA<span class="price">£1.70</span><br/>
+																		<li>LIQUOR COFFEE<span class="price">£5.50</span><br/>
+																			<li>FRAGELICO<span class="price">£5.50</span><br/>
+																				<li>BAILEYS<span class="price">£5.50</span><br/>
+																					<li>AMARETTO<span class="price">£5.50</span><br/>
+																						<li>IRISH<span class="price">£5.50</span><br/>
+																							<li>TIA MARIA<span class="price">£5.50</span><br/>
+																								<li>SAMBUCA<span class="price">£5.50</span><br/>
+																									<li>RUM<span class="price">£5.50</span><br/>
+																										<li>BRANDY (25ml)<span class="price">£5.50</span><br/>
+																											<li>VINTAGE PORT (50ml)<span class="price">£4.95</span><br/>
+																												<li>GRAPPA (25ml)<span class="price">£3.95</span><br/>
+								</ul>
+							</div>
+							<!-- Carnes -->
+							<div class="carnes menuList">
+								<h2>Carnes</h2>
+								<ul>
+									<li>POLLO CON FUNGHI SELVATICI <span class="price">£13.00</span><br/>
+										<span class="description">Pan-fried chicken supreme with wild mushroom sauce
+Served with creamy mash & spinach</span></li>
+									<li>SELECTION OF KEBAB (LAMB, BEEF OR CHICKEN) <span class="price">£13.00</span><br/>
+										<span class="description">Served with mixed salad and savoury rice or chips </span></li>
+									<li>VITELLO ALLA MILANESE<span class="price">£15.00</span><br/>
+										<span class="description">Breaded veal escalope served with spaghetti Napoli</span></li>
+									<li>FEGATO DI VITELLO CON PANCETTA<span class="price">£15.00</span><br/>
+										<span class="description">Pan-fried calf liver served with spring onion mash,
+bacon & onion gravy</span></li>
+									<li>MEDAGLIONI DI MAIALE CON MUSTARDA <span class="price">£15.00</span><br/>
+										<span class="description">Medallion of pork pan-fried and served with cabbage mash
+and wholegrain mustard, brandy & cream sauce</span></li>
+									<li>SCAMONE DI AGNELLO <span class="price">£15.00</span><br/>
+										<span class="description">Oven roasted rump of lamb with parmentier potatoes
+grilled vegetables & rosemary jus</span></li>
+									<li>STINCO DI AGNELLO <span class="price">£15.00</span><br/>
+										<span class="description">Braised lamb shank served with mashed potatoes & peas</span></li>
+									<li>SPEZZATINO DI MANZO (STIFADO) <span class="price">£15.00</span><br/>
+										<span class="description">Braised chunks of lean beef with carrots, celery & onions</span></li>
+									<li>PLATTER OF MIXED KEBABS <span class="price">£16.00</span><br/>
+										<span class="description">Served with mixed salad and savoury rice or chips</span></li>
+									<li>OCCHIO DI BUE <span class="price">£18.00</span><br/>
+										<span class="description">Grilled rib-eye steak with sautéed potatoes and grilled vegetables </span></li>
+									<li>FILETTO DI MANZO <span class="price">£20.00</span><br/>
+										<span class="description">Grilled fillet steak served wild mushrooms, grilled tomatoes,
+rocket & french fries</span></li>
+								</ul>
+							</div>
+							<!-- Desserts -->
+							<div class="desserts menuList">
+								<h2>Desserts</h2>
+								<ul>
+									<li>BAILEY CRÈME BRÛLEÉ<span class="price">£5.00</span><br/>
+										<span class="description">traditional Crème Brûleé with Baileys</span></li>
+									<li>CHOCOLATE CAKE<span class="price">£5.00</span><br/>
+										<span class="description">served warm with cream or ice cream</span></li>
+									<li>APPLE TART<span class="price">£5.00</span><br/>
+										<span class="description">served warm with cream or ice cream</span></li>
+									<li>SELECTION OF ICE CREAM<span class="price">£5.00</span><br/>
+										<span class="description">chocolate, vanilla & strawberry</span></li>
+									<li>BACLAVA<span class="price">£5.00</span><br/>
+										<span class="description">served with vanilla ice cream</span></li>
+									<li>STICKY SYRUP PUDDING<span class="price">£5.00</span><br/>
+										<span class="description">served with vanilla ice cream</span></li>
+									<li>TRADITIONAL TIRAMISU<span class="price">£5.00</span><br/>
+										<span class="description">with Amaretto liquor</span></li>
+									<li>VANILLA CHEESECAKE<span class="price">£5.00</span><br/>
+										<span class="description">with strawberry and cream</span></li>
+									<li>GREEK YOGHURT<span class="price">£5.00</span><br/>
+										<span class="description">with honey and raspberry</span></li>
+								</ul>
+							</div>
+							<!-- Cheeseboard -->
+							<div class="cheeseboards menuList">
+								<h2>Cheeseboard</h2>
+								<ul>
+									<li>SELECTION OF CHEESES<span class="price">£6.50</span><br/>
+										<span class="description">with honey, biscuits and grapes</span></li>
+								</ul>
+							</div>
+							<!-- Pesce -->
+							<div class="pesces menuList">
+								<h2>Pesce</h2>
+								<ul>
+									<li>PAN-FRIED FILLETED SEA-BASS<span class="price">£15.00</span><br/>
+										<span class="description">With parsley potatoes, green beans, rocket & lemon oil</span></li>
+									<li>GRILLED SALMON SUPREME <span class="price">£15.00</span><br/>
+										<span class="description">With sautéed potatoes, crispy leek & asparagus</span></li>
+									<li>MIXED GRILLED FISH PLATTER<span class="price">£20.00</span><br/>
+										<li>SEA-BASS, SALMON, KING-PRAWNS & MONK-FISH<span class="price">£20.00</span><br/>
+											<ul class="meatList">
+												<li><span class="description"><span class="price">£20.00</span>With salad & rice or chips</span>
+												</li>
+											</ul>
+								</ul>
+							</div>
+							<!-- Antipasti -->
+							<div class="antipasti menuList">
+								<h2>Antipasti</h2>
+								<ul>
+									<li>GARLIC BREAD / ADD CHEESE (V) <span class="price">£3.00 / £4.00</span><br/>
+										<li>BOWL OF MIXED OLIVES WITH WARM PITTA BREAD (V)<span class="price">£4.00</span><br/>
+											<li>HOME-MADE SOUP WITH PITTA BREAD (V) <span class="price">£5.00</span><br/>
+												<li>HOUMUS WITH PITTA BREAD (V) <span class="price">£4.00</span><br/>
+													<li>GRILLED AUBERGINES ROLLED WITH SUN-DRIED TOMATOES (V)<span class="price">£6.00</span><br/>
+														<span class="description">Mozzarella & fresh basil</span></li>
+													<li>GSALMON PARCEL WITH CRAB, PRAWNS & HONEY MAYO <span class="price">£8.00</span><br/>
+														<li>COZZE PROVENCIALI OR MARINARA <span class="price">£6.00</span><br/>
+															<span class="description">Steamed mussels with cream or tomato sauce</span></li>
+														<li>DEEP-FRIED MONK-FISH, CALAMARI, WHITE-BAIT <span class="price">£8.00</span><br/>
+															<li>CALAMARI FRITTI WITH TARTARE SAUCE <span class="price">£5.00</span><br/>
+																<li>BAKED ASPARAGUS WITH PARMA HAM & MOZZARELLA <span class="price">£7.00</span><br/>
+																	<li>AVOCADO & WARM PRAWNS WITH BUTTER, GARLIC & CHILI <span class="price">£8.00</span><br/>
+																		<li>BEEF MEATBALLS IN TOMATO SAUCE & PITTA BREAD <span class="price">£6.00</span><br/>
+								</ul>
+							</div>
+							<!-- SALADS -->
+							<div class="salads menuList">
+								<h2>Salads</h2>
+								<ul>
+									<li>GRILLED VEGETABLES WITH FETA CHEESE, SUN-DRIED TOMATOES (V) <span class="price">£10.00</span><br/>
+										<li>OLIVES, ROCKET & PARMESAN SHAVING <span class="price">£10.00</span><br/>
+											<li>MIXED SEA-FOOD SALAD WITH BEANS, CARROTS, CELERY & ANCHOVIES <span class="price">£11.00</span><br/>
+												<li>MIXED SALAD, TOMATO & ONION, GREEK SALAD, ROCKET & PARMESAN<span class="price">£4.00</span><br/>
+													<li>FRIED COURGETTES, SPINACH, GREEN BEANS, NEW POTATOES, MUSHROOMS <span class="price">£4.00</span><br/>
+								</ul>
+							</div>
+							<!--MENU LISTS END-->
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	
-	
+
+
 	<div id="map_container"></div>
 	<div id="map"></div>
-	
+
 	<footer class="footer-distributed">
 		<div class="container">
 			<div class="footer-left">
@@ -65,12 +272,9 @@
 				<img src="img/logo.png" class="footer-logo" alt="Frali Logo" width="200px"></img>
 
 				<p class="footer-links">
-					<a href="index.html">Home</a>
-					·
-					<a href="menu.html">Menu</a>
-					·
-					<a href="testimonials.html">Testimonials</a>
-					·
+					<a href="index.html">Home</a> ·
+					<a href="menu.html">Menu</a> ·
+					<a href="testimonials.html">Testimonials</a> ·
 					<a href="contactus.html">Contact Us</a>
 
 				</p>
@@ -100,9 +304,7 @@
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>About Frali</span>
-					Frali is a small family run restaurant located in Sidcup, providing authentic Italian and
-Mediterranean cuisine in a friendly and relaxed environment. 
+					<span>About Frali</span> Frali is a small family run restaurant located in Sidcup, providing authentic Italian and Mediterranean cuisine in a friendly and relaxed environment.
 				</p>
 
 				<div class="footer-icons">
@@ -115,8 +317,8 @@ Mediterranean cuisine in a friendly and relaxed environment.
 				</div>
 
 			</div>
-			</div>
-		</footer>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>

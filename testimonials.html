@@ -12,27 +12,40 @@
 </head>
 
 <body>
-	<div class="nav">
+	<div class="topnav" id="myTopnav">
 		<div class="container">
-		<div class="nav-header">
-			<div class="nav-title">
-				<img src="img/logo.png" class="logo" alt="Frali Logo"></img>
+			<a href="#news"><i class="fa fa-clock-o" aria-hidden="true"></i> Monday-Friday: 9:00am-9:00pm</a>
+			<a href="#contact"><i class="fa fa-phone"></i> 01234 567 789</a>
+			<a href="#about"><i class="fa fa-envelope-o"></i> info@frali.co.uk</a>
+			<div class="socialnetworklinks">
+				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="nav-btn">
-			<label for="nav-check">
+	</div>
+
+	<div class="nav">
+		<div class="container">
+			<div class="nav-header">
+				<div class="nav-title">
+					<a href="index.html"><img src="img/logo.png" class="logo" alt="Frali Logo"></img></a>
+				</div>
+			</div>
+			<div class="nav-btn">
+				<label for="nav-check">
       <span></span>
       <span></span>
       <span></span>
     </label>
-		</div>
-		<input type="checkbox" id="nav-check">
-		<div class="nav-links">
-			<a href="index.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="testimonials.html"  class="active">Testimonials</a>
-			<a href="contactus.html">Contact Us</a>
-		</div>
+			</div>
+			<input type="checkbox" id="nav-check">
+			<div class="nav-links">
+				<a href="index.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="testimonials.html" class="active">Testimonials</a>
+				<a href="contactus.html">Contact Us</a>
+			</div>
 		</div>
 	</div>
 
@@ -41,26 +54,52 @@
 			<h1>Testimonials</h1>
 		</div>
 	</div>
-	
+
 	<div class="intro">
-	<div class="container">
-		<p class="center-text intro-text">We'd love to hear from you if you've got comments about your experience at Frali, suggestions as to how we could make your meal more enjoyable - or if you'd just like to say hello. Please fill in the form below, and we'll get back to you as soon as possible.</p>
+		<div class="container">
+			<p class="center-text intro-text">Quality is the most important ingredient in every meal prepared by our dedicated team of highly trained chefs. We are absolutely delighted to have received so many first-class awards and reviews from some of the industry’s top critics for the consistently
+				high quality of the food that we prepare for you. </p>
+			<p class="center-text intro-text">Here are a few, for a foretaste of the quality that you can expect:</p>
 
-		<div class="grid-system">
-		  <div class="item">
-			
-
-		  </div>
-		  
-		  
-		  
-		  </div>
+			<div class="grid-system">
+				<div class="item">
+					<figure class="snip1533">
+						<figcaption>
+							<blockquote>
+								<p>Great food and service. Lovely cosy restaurant with good varied menu options. Always our first choice.
+								</p>
+							</blockquote>
+							<h3>Peter, Sidcup</h3>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="item">
+					<figure class="snip1533">
+						<figcaption>
+							<blockquote>
+								<p>My family love coming here. My dad always has calamari lamb chops and lemon sorbet. Lovely friendly service.</p>
+							</blockquote>
+							<h3>Paola, Bexley</h3>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="item">
+					<figure class="snip1533">
+						<figcaption>
+							<blockquote>
+								<p>Great food with good choice of beers and wine. Relaxed atmosphere with friendly knowledgeable staff. Looking forward to being back there again next Friday in a group of people.</p>
+							</blockquote>
+							<h3>Philomena, Blackfen</h3>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
 		</div>
 	</div>
-	
+
 	<div id="map_container"></div>
 	<div id="map"></div>
-	
+
 	<footer class="footer-distributed">
 		<div class="container">
 			<div class="footer-left">
@@ -68,12 +107,9 @@
 				<img src="img/logo.png" class="footer-logo" alt="Frali Logo" width="200px"></img>
 
 				<p class="footer-links">
-					<a href="index.html">Home</a>
-					·
-					<a href="menu.html">Menu</a>
-					·
-					<a href="testimonials.html">Testimonials</a>
-					·
+					<a href="index.html">Home</a> ·
+					<a href="menu.html">Menu</a> ·
+					<a href="testimonials.html">Testimonials</a> ·
 					<a href="contactus.html">Contact Us</a>
 
 				</p>
@@ -103,9 +139,7 @@
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>About Frali</span>
-					Frali is a small family run restaurant located in Sidcup, providing authentic Italian and
-Mediterranean cuisine in a friendly and relaxed environment. 
+					<span>About Frali</span> Frali is a small family run restaurant located in Sidcup, providing authentic Italian and Mediterranean cuisine in a friendly and relaxed environment.
 				</p>
 
 				<div class="footer-icons">
@@ -118,8 +152,8 @@ Mediterranean cuisine in a friendly and relaxed environment.
 				</div>
 
 			</div>
-			</div>
-		</footer>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
