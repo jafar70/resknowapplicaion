@@ -122,7 +122,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
    $(window).bind('scroll', function() {
-		 if ($(window).scrollTop() > 1200) {
+		 if ($(window).scrollTop() > 20) {
 			 $('.nav').addClass('fixed');
 		 }
 		 else {
